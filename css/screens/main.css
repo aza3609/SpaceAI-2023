@@ -74,3 +74,17 @@
   top: 20px;
   right: 20px;
 }
+
+.main-program,
+.main-logos {
+  background-color: var(--main-background-color);
+}
+.main-program__tracks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+.main-program__tracks a {
+  color: var(--main-color);
+  margin-top: 20px;
+}
