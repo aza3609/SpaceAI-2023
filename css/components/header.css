@@ -1,0 +1,36 @@
+header {
+  font-family: "Pretendard Std Variable", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  color: white;
+  height: 100px;
+  padding: 0px 60px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: 00;
+}
+nav ul li {
+  margin: 0px 24px;
+}
+.nav-util {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-util a {
+  margin: 0px 18px;
+}
+.nav-util a:first-child {
+  color: var(--main-color);
+}
+.nav-util a:last-child {
+  color: rgb(185, 185, 185);
+}
