@@ -1,17 +1,23 @@
 header {
-  font-family: "Pretendard Std Variable", sans-serif;
+  font-family: "Pretendard", sans-serif;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
-  color: white;
-  height: 100px;
+  color: var(--main-color);
+  background-color: white;
+  height: 85px;
   padding: 0px 60px;
   box-sizing: border-box;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  z-index: 2;
 }
-
+.main-header {
+  color: white;
+  background-color: transparent;
+}
 nav ul {
   display: flex;
   font-size: 16px;
@@ -20,17 +26,44 @@ nav ul {
 nav ul li {
   margin: 0px 24px;
 }
+nav ul li:hover,
+nav ul li:active {
+  color: var(--point-color);
+}
+
 .nav-util {
   display: flex;
   font-size: 14px;
   font-weight: 500;
 }
 .nav-util a {
-  margin: 0px 18px;
+  margin-left: 32px;
 }
 .nav-util a:first-child {
-  color: var(--main-color);
+  color: var(--point-color);
 }
 .nav-util a:last-child {
-  color: rgb(185, 185, 185);
+  color: rgb(160, 160, 160);
+}
+
+.header {
+  width: 100vw;
+  height: 400px;
+  margin-top: 85px;
+}
+.header img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -2;
+}
+.header-text {
+  position: relative;
+  bottom: 60%;
+  text-align: center;
+}
+.header-text span {
+  color: #6b7684;
+  font-size: 15px;
 }

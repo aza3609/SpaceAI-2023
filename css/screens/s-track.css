@@ -1,0 +1,10 @@
+#s-track_proposal a {
+  display: flex;
+  align-items: center;
+  color: var(--point-color);
+  margin-bottom: 20px;
+}
+#s-track_proposal a svg {
+  width: 20px;
+  margin-left: 6px;
+}

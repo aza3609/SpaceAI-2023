@@ -1,0 +1,28 @@
+#about-vision {
+  background-color: var(--main-background-color);
+}
+.about-vision__contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+.about-vision__contents div {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 8px;
+}
+.about-vision__contents div h4 {
+  grid-column: 1/-1;
+}
+
+.about-how__contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+.about-how__contents img {
+  margin-bottom: 10px;
+}
+.about-how__contents p {
+  font-size: 18px;
+}

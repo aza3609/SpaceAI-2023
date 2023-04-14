@@ -1,0 +1,29 @@
+.button-row {
+  display: flex;
+}
+.big-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px var(--point-color) solid;
+  height: 90px;
+  width: 270px;
+  font-size: 19px;
+  font-weight: 500;
+  margin-right: 20px;
+  color: var(--point-color);
+  margin-top: 20px;
+}
+.big-btn:hover {
+  background-color: var(--point-color);
+  color: white;
+}
+
+.submit-btn {
+  background-color: var(--point-color);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}

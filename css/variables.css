@@ -1,4 +1,7 @@
 :root {
-  --main-color: #37a76f;
+  --point-color: #37a76f;
+  --main-text-color: #333d4b;
+  --sub-text-color: #6b7684;
   --main-background-color: #ecf0f4;
+  --alert-color: rgb(246, 110, 69);
 }

@@ -1,0 +1,31 @@
+#login {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login .wrap {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+  padding: 60px 44px;
+  border-radius: 20px;
+}
+#login_form input {
+  width: 100%;
+}
+
+.login_id {
+  margin-bottom: 12px;
+}
+#login span {
+  font-size: 17px;
+  margin-top: 40px;
+}
+#login span a {
+  color: var(--main-text-color);
+}
