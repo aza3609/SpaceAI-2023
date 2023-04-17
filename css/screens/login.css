@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(190, 190, 190);
+  border: 1px solid rgb(208, 208, 208);
   padding: 60px 44px;
   border-radius: 20px;
 }
@@ -23,9 +23,7 @@
   margin-bottom: 12px;
 }
 #login span {
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 40px;
-}
-#login span a {
-  color: var(--main-text-color);
+  color: var(--sub-text-color);
 }

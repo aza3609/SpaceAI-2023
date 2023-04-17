@@ -1,29 +1,96 @@
-.button-row {
-  display: flex;
-}
-.big-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px var(--point-color) solid;
-  height: 90px;
-  width: 270px;
-  font-size: 19px;
-  font-weight: 500;
-  margin-right: 20px;
-  color: var(--point-color);
+button {
   margin-top: 20px;
-}
-.big-btn:hover {
-  background-color: var(--point-color);
-  color: white;
+  padding: 14px 48px;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
+.btn-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
 .submit-btn {
   background-color: var(--point-color);
   color: white;
   border: none;
-  font-size: 18px;
+  margin-top: 20px;
+  padding: 14px 42px;
   font-weight: 500;
-  margin-top: 30px;
+  font-size: 17px;
+  width: 100%;
+}
+.basic-btn {
+  color: var(--point-color);
+  border: solid 1px var(--point-color);
+  font-size: 17px;
+}
+.color-btn {
+  background-color: var(--point-color);
+  color: white;
+  border: none;
+}
+.cancel-btn {
+  background-color: gray;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 14px 42px;
+  font-weight: 500;
+  font-size: 17px;
+  width: 100%;
+}
+.big-btn {
+  padding: 30px 50px;
+  font-size: 19px;
+  font-weight: 500;
+  width: 254px;
+}
+.big-btn:hover,
+.big-btn:active {
+  background-color: var(--point-color);
+  color: white;
+}
+.disabled-btn,
+.disabled-btn:hover {
+  color: rgb(168, 168, 168);
+  border: solid 1px rgb(168, 168, 168);
+  background-color: white;
+}
+input[type="file"]::file-selector-button {
+  width: 110px;
+  height: 36px;
+  background: rgb(138, 138, 138);
+  cursor: pointer;
+  color: white;
+}
+
+.radio-btn {
+  color: var(--sub-text-color);
+  margin: 6px 0px;
+}
+.radio-btn input {
+  width: 20px;
+  margin-right: 10px;
+}
+.check-btn {
+  color: var(--sub-text-color);
+  margin: 10px 0px;
+  display: flex;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.etc {
+  color: var(--sub-text-color);
+  width: 100%;
+  word-break: keep-all;
+}
+.etc input {
+  margin-left: 10px;
+  width: 100%;
 }

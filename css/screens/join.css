@@ -1,47 +1,61 @@
 #join {
-  margin-top: 85px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #join .wrap {
+  width: 440px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.join_row {
+
+#join_privacy {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  margin-bottom: 20px;
+}
+#join_privacy input {
+  width: 22px;
+}
+#join_privacy h5 {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-#join_form input {
+.join_privacy_box {
+  background-color: white;
+  padding: 12px;
+  border: var(--main-border);
+  height: 250px;
+  overflow: auto;
+}
+.join_privacy_box p {
+  font-size: 15px;
+  word-break: break-all;
+  margin-bottom: 0;
+}
+.join_row--privacy {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 20px 0px;
+}
+
+#join_form {
   width: 100%;
 }
-
-.join_row--jobs .checkbox_wrap {
+.form_row--jobs .checkbox_wrap {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr 3fr;
-  column-gap: 10px;
-  row-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+.form_row--jobs .etc {
+  display: flex;
   align-items: center;
 }
-.join_row--jobs h5 {
-  grid-column: 1/-1;
-}
-.join_row--jobs input {
-  width: 22px;
-  height: 22px;
-}
-.join_row--jobs span {
-  color: #6b7684;
-}
-
-.join_row--jobs .etc {
-  text-align: center;
-}
 .join_job_etc {
-  grid-column: 2/4;
+  grid-column: 1/-1;
+  height: 38px;
 }

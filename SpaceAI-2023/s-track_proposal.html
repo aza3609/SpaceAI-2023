@@ -29,15 +29,33 @@
     </header>
 
 <main >
-    <section id="login">
+    <section id="join">
         <div class="wrap">
-          <h2>로그인</h2>
-          <form id="login_form" action="">
-             <input class="login_id" type="email" placeholder="이메일 주소">
-             <input class="login_password" type="password" placeholder="비밀번호"/>
-             <button class="submit-btn" type="submit">로그인</button>
+          <h2>연구 제안서 제출</h2>
+          <form id="s-proposal_form" action="">
+             <div class="form_row">
+                <h5><label>이름</label></h5>
+                <input id="join_id" type="text" placeholder="" required/>
+             </div>
+             <div class="form_row">
+              <h5><label>소속</label></h5>
+              <input id="join_password" type="password" required/>
+              </div>
+              <div class="form_row">
+            <h5><label>이메일</label></h5>  
+              <input id="join_password-confirm" type="email"  required/>
+             </div>
+             <div class="form_row">
+              <h5><label>핸드폰 번호</label></h5>  
+              <input id="join_name" type="text" required/>
+             </div>
+             <div class="form_row">
+                <h5><label>연구제안서 제출</label></h5>  
+
+                <input id="submit_file" type="file" accept=".hwp, .doc,.docx" required/>
+             </div>
+              <input class="submit-btn" type="submit" value="제출" onclick="location='s-track_proposal_success.html'"/>
           </form>
-          <span><a href="find-password.html">비밀번호 찾기</a>  <span class="vertical-bar">|</span>  <a href="join.html">회원가입</a></span>
         </div>
 
       
@@ -45,7 +63,7 @@
 
 </main>
 
-    <footer class="fixed-footer">
+    <footer >
       <span>Copyright 2023. Korea Astronomy and Space Science Institute all rights reserved.</span>
       <img src="img/spaceai-logo-white.svg" alt="">
     </footer>

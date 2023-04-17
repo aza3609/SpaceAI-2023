@@ -14,6 +14,7 @@
 @import "screens/contact.css";
 @import "screens/login.css";
 @import "screens/join.css";
+@import "screens/find-password.css";
 
 * {
   font-family: "Pretendard", sans-serif;
