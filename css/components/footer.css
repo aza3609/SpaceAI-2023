@@ -1,4 +1,5 @@
 footer {
+  font-family: "pretendard", sans-serif;
   width: 100%;
   background-color: #4d4f53;
   padding: 40px 60px;
@@ -13,9 +14,4 @@ footer span {
 }
 footer img {
   opacity: 0.4;
-}
-
-.fixed-footer {
-  position: fixed;
-  bottom: 0;
 }

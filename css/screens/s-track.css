@@ -27,6 +27,13 @@
   padding: 0px;
   margin-top: 10px;
 }
+.s-proposal_success {
+  height: 100%;
+  justify-content: center;
+}
+.s-proposal_success p {
+  text-align: center;
+}
 
 /*registration*/
 #s-registration_form {
@@ -58,4 +65,15 @@
 
 .registration_writing textarea {
   height: 140px;
+}
+
+.registration_success {
+  height: 100%;
+  justify-content: center;
+}
+
+.registration_success .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
