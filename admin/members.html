@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceAI 2023 관리자</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <a class="nav-logo" href="index.html"
+        ><img src="../img/spaceai-logo-black.svg" alt="logo" />관리자</a
+      >
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="members.html">회원가입자</a></li>
+          <li><a href="proposals.html">연구제안서</a></li>
+          <li><a href="s-participants.html">S 트랙 참가자</a></li>
+          <li>
+            <a href="c-paricipants.html">C 트랙 참가자</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-util">
+        <a href="login.html">로그인</a>
+         </ul>
+       </div>
+    </header>
+    <main class="members-admin">
+      <div class="wrap">
+        <h2>회원가입자 목록</h2>
+        <table class="members_table">
+            <tr class="tr_header">
+                <th><input class="checkbox check-all" type="checkbox"/></th>
+                <th>No.</th>
+                <th>아이디</th>
+                <th>이름</th>
+                <th>휴대폰 번호</th>
+                <th>소속</th>
+            </tr>
+            <tr>
+                <td><input class="checkbox" type="checkbox"/></td>
+                <td class="td_number">1</td>
+                <td class="td_id"><a href="members_detail.html">user@example.com</a></td>
+                <td class="td_name">백지윤</td>
+                <td class="td_phone">010-1234-5678</td>
+                <td class="td_affiliation">한국천문연구원</td>
+            </tr>
+            <tr>
+                <td><input class="checkbox" type="checkbox"/></td>
+                <td class="td_number">2</td>
+                <td class="td_id"><a href="members_detail.html">user@example.com</a></td>
+                <td class="td_name">백지윤</td>
+                <td class="td_phone">010-1234-5678</td>
+                <td class="td_affiliation">한국천문연구원</td>
+            </tr>
+            <tr>
+                <td><input class="checkbox" type="checkbox"/></td>
+                <td class="td_number">3</td>
+                <td class="td_id"><a href="members_detail.html">user@example.com</a></td>
+                <td class="td_name">백지윤</td>
+                <td class="td_phone">010-1234-5678</td>
+                <td class="td_affiliation">한국천문연구원</td>
+            </tr>
+            <tr>
+                <td><input class="checkbox" type="checkbox"/></td>
+                <td class="td_number">4</td>
+                <td class="td_id"><a href="members_detail.html">user@example.com</a></td>
+                <td class="td_name">백지윤</td>
+                <td class="td_phone">010-1234-5678</td>
+                <td class="td_affiliation">한국천문연구원</td>
+            </tr>
+        </table>
+        <div class="admin-btn">
+            <button class="delet-btn"><i data-feather="trash"></i>삭제</button>
+            <button class="copy-btn"><i data-feather="copy"></i>메일주소 복사</button>
+        </div>
+      </div>
+    </main>
+    <script>
+        feather.replace()
+      </script>
+  </body>
+</html>

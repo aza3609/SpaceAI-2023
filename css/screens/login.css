@@ -1,12 +1,10 @@
-#login {
+.login {
   background-color: white;
   height: 100%;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-#login .wrap {
+.login .wrap {
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -22,7 +20,7 @@
 .login_id {
   margin-bottom: 12px;
 }
-#login span {
+.login span {
   font-size: 16px;
   margin-top: 40px;
   color: var(--sub-text-color);

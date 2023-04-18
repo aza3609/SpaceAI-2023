@@ -48,13 +48,12 @@ button {
   font-weight: 500;
   width: 254px;
 }
-.big-btn:hover,
-.big-btn:active {
+.btn-hover:hover,
+.btn-hover:active {
   background-color: var(--point-color);
   color: white;
 }
-.disabled-btn,
-.disabled-btn:hover {
+.disabled-btn {
   color: rgb(168, 168, 168);
   border: solid 1px rgb(168, 168, 168);
   background-color: white;

@@ -12,7 +12,14 @@
   display: flex;
 }
 /*submit*/
-#s-proposal_form {
+.s-proposal_submit {
+  background-color: var(--main-background-color);
+  height: 100%;
+}
+.s-proposal_submit .wrap {
+  width: 440px;
+}
+.s-proposal_form {
   width: 100%;
 }
 #submit_file {
