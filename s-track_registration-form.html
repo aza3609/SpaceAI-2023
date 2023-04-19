@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceAI 2023</title>
+    <link rel="stylesheet" href="inc/styles.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <a class="nav_logo" href="index.html"
+        ><img src="img/spaceai-logo-black.svg" alt="logo"
+      /></a>
+      <nav class="nav_menu">
+        <ul>
+          <li><a href="about.html">SpaceAI 소개</a></li>
+          <li><a href="s-track.html">Scientist 트랙</a></li>
+          <li><a href="c-track.html">Citizen Scientist 트랙</a></li>
+          <li><a href="achievement.html">연구성과</a></li>
+          <li><a href="contact.html">문의하기</a></li>
+        </ul>
+      </nav>
+      <div class="nav_util">
+        <a href="my-page.html">마이 페이지</a>
+        <a href="login.html">로그인</a>
+      </div>
+    </header>
+
+    <main class="registration bg-color">
+      <div class="wrap">
+        <h2>Scientist 트랙 참가 신청</h2>
+        <form id="s-registration_form" action="">
+          <div class="registration__applicant columns-2">
+            <div class="form_row">
+              <h5><label>이름</label></h5>
+              <input type="text" placeholder="" required />
+            </div>
+            <div class="form_row">
+              <h5><label>소속</label></h5>
+              <input type="password" required />
+            </div>
+            <div class="form_row">
+              <h5><label>이메일</label></h5>
+              <input type="email" required />
+            </div>
+            <div class="form_row">
+              <h5><label>핸드폰 번호</label></h5>
+              <input type="text" required />
+            </div>
+          </div>
+          <div class="form_row form_row--radio">
+            <h5><label>연구제안서 제출 여부</label></h5>
+            <div class="radio-wrap">
+              <label class="radio-btn"
+                ><input type="radio" name="fruit" value="yes" checked />
+                제출함</label
+              >
+              <label class="radio-btn"
+                ><input type="radio" name="fruit" value="no" /> 제출하지
+                않음</label
+              >
+            </div>
+          </div>
+          <div class="form_row form_row--checkbox">
+            <h5>
+              <label
+                >전문 분야<span class="light"> (복수선택 가능)</span></label
+              >
+            </h5>
+            <div class="wrap columns-3">
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />우주과학</label
+              >
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />우주기술 개발</label
+              >
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />빅데이터
+                사이언스</label
+              >
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />머신러닝</label
+              >
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />영상처리</label
+              >
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />통계분석</label
+              >
+              <label class="check-btn"
+                ><input class="checkbox" type="checkbox" />GPU 등
+                하드웨어</label
+              >
+              <label class="etc"
+                >기타<input
+                  class="join_job_etc"
+                  type="text"
+                  placeholder="직접 입력"
+              /></label>
+            </div>
+          </div>
+          <div class="registration__writing">
+            <div class="form_row">
+              <h5>
+                <label>간략한 자기소개</label
+                ><span class="light small">500자 이내</span>
+              </h5>
+              <textarea
+                id="s-tract_introduction"
+                type="text"
+                required
+              ></textarea>
+            </div>
+            <div class="form_row">
+              <h5>
+                <label>프로그램 참가 목적/계기</label
+                ><span class="light small">500자 이내</span>
+              </h5>
+              <textarea id="s-tract_purpose" type="text" required></textarea>
+            </div>
+            <div class="form_row">
+              <h5>
+                <label>관심있는 연구주제</label
+                ><span class="light small">500자 이내</span>
+              </h5>
+              <textarea id="s-tract_interest" type="text" required></textarea>
+            </div>
+          </div>
+          <div class="btn-row">
+            <button class="cancel-btn" onclick="location='index.html'">
+              취소
+            </button>
+            <button
+              class="submit-btn"
+              type="submit"
+              onclick="location='success--registration.html'"
+            >
+              제출
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <span
+        >Copyright 2023. Korea Astronomy and Space Science Institute all rights
+        reserved.</span
+      >
+      <img src="img/spaceai-logo-white.svg" alt="" />
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

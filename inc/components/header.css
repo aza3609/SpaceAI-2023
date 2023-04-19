@@ -18,7 +18,7 @@ header {
   color: white;
   background-color: transparent;
 }
-.nav-logo {
+.nav_logo {
   margin-top: 10px;
 }
 nav ul {
@@ -34,18 +34,18 @@ nav ul li:active {
   color: var(--point-color);
 }
 
-.nav-util {
+.nav_util {
   display: flex;
   font-size: 14px;
   font-weight: 500;
 }
-.nav-util a {
+.nav_util a {
   margin-left: 32px;
 }
-.nav-util a:first-child {
+.nav_util a:first-child {
   color: var(--point-color);
 }
-.nav-util a:last-child {
+.nav_util a:last-child {
   color: rgb(160, 160, 160);
 }
 

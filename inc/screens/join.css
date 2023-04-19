@@ -1,0 +1,48 @@
+.join {
+  height: 100%;
+  justify-content: center;
+}
+.join .wrap {
+  width: 440px;
+}
+
+#join_privacy {
+  display: flex;
+  flex-direction: column;
+}
+#join_privacy input {
+  width: 22px;
+}
+#join_privacy h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.join__privacy-text {
+  background-color: white;
+  padding: 12px;
+  border: var(--main-border);
+  height: 350px;
+  overflow: auto;
+  margin-bottom: 20px;
+  font-size: 15px;
+  word-break: break-all;
+}
+.join__privacy-text p {
+  font-size: 16px;
+  word-break: break-all;
+  margin-bottom: 0;
+}
+
+/*---------- join-form---------*/
+.form_row--id-confirm {
+  position: relative;
+}
+.id-confirm-btn {
+  background-color: white;
+  position: absolute;
+  right: -110px;
+  top: 10px;
+  width: 100px;
+  padding: 13px;
+}

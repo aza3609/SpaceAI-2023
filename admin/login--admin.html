@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SpaceAI 2023</title>
-    <link rel="stylesheet" href=".../inc/styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       as="style"
@@ -33,27 +33,24 @@
         <a href="login--admin.html">로그인</a>
       </div>
     </header>
-    <main class="quick-menu-admin main-bg-color">
+    <main class="login main-bg-color">
       <div class="wrap">
-        <h2>SpaceAI 관리자 메뉴</h2>
-        <button class="basic-btn btn-hover" onclick="location='members.html'">
-          회원가입자
-        </button>
-        <button class="basic-btn btn-hover" onclick="location='proposals.html'">
-          연구제안서
-        </button>
-        <button
-          class="basic-btn btn-hover"
-          onclick="location='s-participants.html'"
-        >
-          S 트랙 참가자
-        </button>
-        <button
-          class="basic-btn btn-hover"
-          onclick="location='c-paricipants.html'"
-        >
-          C 트랙 참가자
-        </button>
+        <h2>관리자 로그인</h2>
+        <form id="login_form-adim" action="">
+          <input class="login_id-admin" type="id" placeholder="관리자 아이디" />
+          <input
+            class="login_password-admin"
+            type="password"
+            placeholder="관리자 비밀번호"
+          />
+          <button
+            class="submit-btn"
+            type="button"
+            onclick="location='index.html'"
+          >
+            로그인
+          </button>
+        </form>
       </div>
     </main>
     <script>

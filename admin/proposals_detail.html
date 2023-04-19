@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceAI 2023</title>
+    <link rel="stylesheet" href="inc/styles.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header class="header-admin">
+      <a class="nav_logo" href="index.html"
+        ><img src="../img/spaceai-logo-black.svg" alt="logo" />관리자</a
+      >
+      <nav class="nav_menu">
+        <ul>
+          <li><a href="members.html">회원가입자</a></li>
+          <li><a href="proposals.html">연구제안서</a></li>
+          <li><a href="s-participants.html">S 트랙 참가자</a></li>
+          <li>
+            <a href="c-paricipants.html">C 트랙 참가자</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav_util">
+        <a href="login--admin.html">로그인</a>
+      </div>
+    </header>
+
+    <main class="admin-detail main-bg-color">
+      <div class="wrap">
+        <h2>연구 제안서</h2>
+        <form id="proposal_form" action="">
+          <div class="form_row">
+            <h5><label>이름</label></h5>
+            <input type="text" placeholder="백지윤" />
+          </div>
+          <div class="form_row">
+            <h5><label>소속</label></h5>
+            <input type="password" placeholder="(주)위즈랩" />
+          </div>
+          <div class="form_row">
+            <h5><label>이메일</label></h5>
+            <input type="email" placeholder="jiyun@wyslab.com" />
+          </div>
+          <div class="form_row">
+            <h5><label>핸드폰 번호</label></h5>
+            <input type="text" placeholder="010-1234-5678" />
+          </div>
+          <div class="form_row">
+            <h5><label>연구제안서 제목</label></h5>
+            <input
+              type="text"
+              placeholder="초거성 VX Sgr의 물과 산화규소 메이저 동시 모니터링 관측 연구"
+            />
+          </div>
+          <div class="form_row">
+            <h5><label>제출 파일</label></h5>
+            <a class="color" href="" download=""
+              >SpaceAI_2023_연구제안서_백지윤.hwp</a
+            >
+          </div>
+          <button
+            class=""
+            type="button"
+            onclick="location='s-participants.html'"
+          >
+            목록으로
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <span
+        >Copyright 2023. Korea Astronomy and Space Science Institute all rights
+        reserved.</span
+      >
+      <img src="img/spaceai-logo-white.svg" alt="" />
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

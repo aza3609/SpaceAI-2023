@@ -1,10 +1,9 @@
 .login {
-  background-color: white;
   height: 100%;
   justify-content: center;
 }
 
-.login .wrap {
+.login__wrap {
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -13,12 +12,11 @@
   padding: 60px 44px;
   border-radius: 20px;
 }
-#login_form input {
-  width: 100%;
-}
-
 .login_id {
   margin-bottom: 12px;
+}
+.login span:nth-child(2) {
+  margin: 0px 10px;
 }
 .login span {
   font-size: 16px;

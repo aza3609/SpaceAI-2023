@@ -1,0 +1,14 @@
+.about-vision {
+  background-color: var(--main-background-color);
+}
+.about-vision__wrap div {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 10px;
+}
+.about-vision__wrap h4 {
+  grid-column: 1/-1;
+}
+.about-how__wrap img {
+  margin-bottom: 10px;
+}

@@ -1,9 +1,9 @@
-.header-admin .nav-logo {
+.header-admin .nav_logo {
   display: flex;
   align-items: center;
   font-size: 18px;
 }
-.header-admin .nav-logo img {
+.header-admin .nav_logo img {
   margin-right: 10px;
 }
 /*common*/
@@ -24,7 +24,7 @@ tr {
   grid-template-columns: 1fr 1fr 3fr 5fr 4fr 5fr;
 }
 .proposals_table tr {
-  grid-template-columns: 1fr 1fr 14fr 3fr 4fr;
+  grid-template-columns: 1fr 1fr 3fr 20fr;
 }
 tr:nth-child(2n + 1) {
   background-color: rgb(231, 231, 231);
@@ -71,57 +71,37 @@ td a:hover {
 .copy-btn {
   color: var(--point-color);
 }
-
-/*login-page*/
-#login-admin {
-  height: 100%;
+.checkbox_wrap--admin {
+  border: var(--main-border);
+  padding: 16px 16px 16px 32px;
+  box-sizing: border-box;
+  background-color: white;
+  color: var(--main-text-color);
+}
+.checkbox_wrap--admin ul {
   display: flex;
-  align-items: center;
+}
+.checkbox_wrap--admin li {
+  list-style: disc;
+  margin-right: 34px;
+}
+/* -----main-admin----- */
+.quick-menu-admin {
+  height: 100%;
   justify-content: center;
-}
-
-#login-admin .wrap {
-  width: 400px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(208, 208, 208);
-  padding: 60px 44px;
-  border-radius: 20px;
-}
-#login_form-admin {
-  width: 100%;
-}
-#login_form-admin input {
-  width: 100%;
-}
-.login_id-admin {
-  margin-bottom: 12px;
-}
-#login span {
-  font-size: 16px;
-  margin-top: 40px;
-  color: var(--sub-text-color);
-}
-/*main-admin*/
-#quick-menu-admin {
-  background-color: var(--main-background-color);
-  height: 100%;
-  justify-content: start;
   padding-top: 180px;
 }
-#quick-menu-admin .wrap {
+.quick-menu-admin .wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
-  justify-items: center;
-  align-items: center;
   width: 720px;
 }
-#quick-menu-admin h2 {
+.quick-menu-admin h2 {
   grid-column: 1/-1;
 }
-#quick-menu-admin button {
+.quick-menu-admin button {
   font-size: 20px;
   width: 100%;
   height: 140px;
@@ -132,7 +112,7 @@ td a:hover {
   border: 1.5px solid var(--point-color);
 }
 
-#quick-menu-admin button:hover {
+.quick-menu-admin button:hover {
   background-color: var(--point-color);
 }
 
@@ -140,30 +120,37 @@ td a:hover {
 .members-admin {
   margin-top: 180px;
 }
+.admin-detail .wrap {
+  width: 440px;
+  align-items: center;
+  justify-content: center;
+}
+.admin-detail--720 .wrap {
+  width: 720px;
+}
+.admin-detail h2 {
+  width: 100%;
+}
+.admin-detail h5 {
+  color: var(--sub-text-color);
+}
+.admin-detail input::placeholder {
+  color: var(--main-text-color);
+}
+.admin-detail input,
+.admin-detail textarea {
+  background-color: white;
+}
 
 /*proposals*/
 .proposals-admin {
   margin-top: 180px;
 }
-.proposals-admin .wrap {
-  width: 1000px;
-}
 .proposals_table {
   width: 100%;
 }
-
+.admin-detail a {
+  text-decoration: underline;
+  text-underline-position: under;
+}
 /*admin-participants*/
-.registration--detatil {
-  background-color: var(--main-background-color);
-  padding: 200px 0px;
-}
-.registration--detatil input {
-  background-color: white;
-}
-
-.registration--detatil input::placeholder {
-  color: var(--main-text-color);
-}
-.registration--detatil .checkbox_wrap {
-  background-color: white;
-}
