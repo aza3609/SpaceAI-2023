@@ -1,0 +1,27 @@
+.contact {
+  height: 100%;
+}
+.contact__wrap div {
+  border: 1px rgb(214, 214, 214) solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.contact__wrap h4 {
+  margin-bottom: 30px;
+}
+.contact__wrap span {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 180%;
+  color: var(--point-color);
+}
+.contact__wrap .bold {
+  font-size: 20px;
+}
+.contact__wrap svg {
+  margin-left: 6px;
+  width: 24px;
+}

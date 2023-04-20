@@ -1,0 +1,8 @@
+:root {
+  --point-color: #37a76f;
+  --main-text-color: #333d4b;
+  --sub-text-color: #6b7684;
+  --main-background-color: #eef2f5;
+  --alert-color: rgb(246, 110, 69);
+  --main-border: 1px solid rgb(208, 208, 208);
+}

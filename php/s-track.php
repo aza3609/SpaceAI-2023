@@ -1,0 +1,114 @@
+<?php include("template_header.php"); ?>
+
+<main>
+  <div class="content-header">
+    <img src="img/header.jpeg" alt="" />
+    <div class="content-header__text">
+      <h1>Scientist 트랙</h1>
+      <span><a href="index.php">홈</a> / <a>Scientist 트랙</a></span>
+    </div>
+  </div>
+
+  <section class="s-about">
+    <div class="wrap">
+      <h2>Scientist 트랙 소개<span>About</span></h2>
+      <p>
+        Scientist 트랙은 최신 AI 기술을 사용하여 다양한 우주과학기술 분야의
+        연구가 수행될 수 있도록 지원합니다.
+        <br />
+        먼저, 중요한 연구 주제 발굴을 위해서 본 프로그램의 목적에 부합하는
+        창의적이고 도전적인 연구제안서를 접수 받고 있습니다. 접수 마감 후
+        SpaceAI 과학조직위원회에서 크게 3가지 측면(주제의 과학적 적절성, AI 모델
+        개발 측면에서 적절한 데이터세트 생성 가능성, 연구결과물의 중요성과
+        파급효과)에서 심사를 거쳐 올해 본 트랙에서 수행될 연구과제를 선정할
+        예정입니다. <br />선정된 각 연구과제에 참여하여 공동연구개발을 수행하고
+        싶은 관련 전문가들의 참가신청을 접수 받아 각 과제별로 팀을 구성, 팀별
+        맞춤형 컨설팅을 실시, 다양한 빅데이터와 AI 모델 개발을 위한 플랫폼을
+        제공, 워크숍/집중협업캠프/컨퍼런스 등을 개최하여 효율적으로 업무를
+        수행할 수 있도록 지원할 것입니다.
+      </p>
+      <div class="btn-row">
+        <button
+          class="big-btn btn-hover"
+          onclick="location='s-track_proposal-form.php'"
+        >
+          연구제안서 제출하기
+        </button>
+        <button
+          class="big-btn btn-hover"
+          onclick="location='s-track_registration-form.php'"
+        >
+          트랙 참가신청하기
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="s-proposal">
+    <div class="wrap">
+      <h3>연구제안서 제출 안내</h3>
+      <p>
+        우주과학기술 분야에서 인공지능을 활용하여 시도해 볼 수 있는 창의적이며
+        도전적인 주제와 방법을 기술한 연구제안서를 접수 받고 있습니다. 아래
+        연구제안서 양식을 다운 받아 작성한 후에 홈페이지를 통해 제출해 주시기
+        바랍니다. 접수 마감일은 5월 7일(일) 자정이며, 마감일 이후
+        과학조직위원회에서 모든 제안서에 대해서 심사를 거쳐 평가결과(선정여부 및
+        제안사항)에 대해 개별 연락드릴 예정입니다. 연구제안서 작성 및 심사
+        관련하여 궁금하신 사항은 이메일(spaceai_soc@kasi.re.kr)로 문의하여
+        주시기 바랍니다.
+      </p>
+      <ul class="list_inform">
+        <li>
+          <span><i data-feather="calendar"></i> 접수 기간 : </span> - 5월
+          7일(일) 자정
+        </li>
+        <li>
+          <span><i data-feather="mail"></i> 문의 : </span>
+          spaceai_soc@kasi.re.kr
+        </li>
+        <li class="color">
+          <span><i data-feather="download"></i>제안서 양식 : </span
+          ><a
+            href="SpaceAI_2023_연구제안서_이름.hwp"
+            download="SpaceAI_2023_연구제안서_이름.hwp"
+            >SpaceAI_2023_연구제안서_이름.hwp</a
+          >
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="s-track_registration">
+    <div class="wrap">
+      <h3>트랙 참가 신청 안내</h3>
+      <p>
+        심사를 통해 선정된 연구과제에 팀 구성원으로 참여하여 공동연구개발을
+        주도적으로 수행할 전문가들의 참가신청 접수를 받고 있습니다. 연구주제
+        제안자와 팀을 구성하여 워크숍, 팀별 온라인 업무미팅, 집중협업캠프 등에
+        참여함으로써 관련 국제학술지에 논문 게재, 국내외 컨퍼런스에서 학술활동,
+        산출된 기술의 특허 출원, 그리고 다양한 서비스를 제공할 수 있는 API를
+        개발할 수 있도록 지원할 것입니다. 다양한 분야(우주과학, 우주기술개발,
+        빅데이터 사이언스, 머신러닝, 영상처리, 통계분석, GPU 등 하드웨어)
+        전문가들의 참여를 기다립니다. 참가 신청 접수기간은 5월 15일(월)부터 5월
+        31일(수)까지 입니다. 참가 관련 문의 사항은
+        이메일(spaceai_loc@kasi.re.kr)로 연락주시기 바랍니다.
+      </p>
+      <ul class="list_inform">
+        <li>
+          <span><i data-feather="calendar"></i>접수 기간 : </span> 5월 15일(월)
+          - 5월 31일(수)
+        </li>
+        <li>
+          <span><i data-feather="mail"></i>문의 : </span>
+          spaceai_loc@kasi.re.kr
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="s-track_list">
+    <div class="wrap">
+      <h3>연구과제 목록</h3>
+      <p>심사를 거쳐 선정된 연구과제 목록이 추후 업로드 될 예정입니다.</p>
+    </div>
+  </section>
+</main>
+
+<?php include("template_footer.php"); ?>

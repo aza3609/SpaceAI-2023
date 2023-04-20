@@ -1,0 +1,33 @@
+.my-page {
+  margin-top: 180px;
+  margin-bottom: 140px;
+  height: 100%;
+}
+.wrap--my-page {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  column-gap: 60px;
+  width: 1100px;
+}
+.my-page__nav {
+  border-right: var(--main-border);
+  line-height: 250%;
+}
+.my-page__nav li {
+  font-size: 18px;
+  color: var(--main-text-color);
+  margin-left: 14px;
+}
+
+.my-page__content {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+}
+
+/* ---------account--------- */
+
+/* ---------password--------- */
+.my-page__content .form_row:first-child {
+  margin-bottom: 50px;
+}

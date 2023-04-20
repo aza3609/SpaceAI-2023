@@ -1,0 +1,22 @@
+/* ------------s-track------------ */
+.s-about .btn-row {
+  display: flex;
+}
+.s-proposal a {
+  font-size: 17px;
+}
+.s-proposal a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+/* ------------proposal-form------------ */
+.proposal-submit {
+  height: 100%;
+}
+.proposal-submit .wrap {
+  width: 440px;
+}
+/* ------------registration-form------------ */
+.registration .wrap {
+  width: 720px;
+}

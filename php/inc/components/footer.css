@@ -1,0 +1,17 @@
+footer {
+  font-family: "pretendard", sans-serif;
+  width: 100%;
+  background-color: #4d4f53;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer span {
+  color: #939393;
+  font-size: 14px;
+}
+footer img {
+  opacity: 0.4;
+}
